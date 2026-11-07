@@ -18,7 +18,7 @@ using MelonLoader;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-[assembly: MelonInfo(typeof(S1CoopTalk.Mod), "S1 Co-op Talk", "1.0.0", "Alvin")]
+[assembly: MelonInfo(typeof(S1CoopTalk.Mod), "S1 Co-op Talk", "1.1.0", "Alvin")]
 [assembly: MelonGame("TVGS", "Schedule I")]
 
 namespace S1CoopTalk
@@ -33,7 +33,7 @@ namespace S1CoopTalk
         private static MelonPreferences_Entry<string> _pingKey;
         private static MelonPreferences_Entry<string> _chatKey;
         public static string HistoryKeyName => _historyKey.Value;
-        private const string ModVersion = "1.0.0";
+        private const string ModVersion = "1.1.0";
 
         // Set while showing a line that came from another player, so it is not sent back out.
         private static bool _receiving;
@@ -66,6 +66,7 @@ namespace S1CoopTalk
             Patch(h, typeof(DailySummary), nameof(DailySummary.Open), nameof(OnDayEnd));
             Net.Install(h);
             Sync.Install(h);
+            Repairs.Install(h, MelonPreferences.GetCategory("S1CoopTalk"));
 #if DEVUDP
             DevLink.Start();
 #endif
@@ -99,6 +100,7 @@ namespace S1CoopTalk
             ModdedPlayers.Clear();
             Team.Reset();
             Sync.OnSceneChanged(inGame);
+            Repairs.OnSceneChanged();
             if (inGame)
                 Feed.Ensure();
         }
@@ -106,12 +108,15 @@ namespace S1CoopTalk
         public override void OnUpdate()
         {
             Feed.Tick();
+            Repairs.Tick();
             if (_inGameSince < 0f)
                 return;
 
             Chat.Tick();
             Team.Tick();
             Sync.Tick();
+            World.Tick();
+            Items.Tick();
 #if DEVUDP
             DevLink.Tick();
 #endif
@@ -222,7 +227,7 @@ namespace S1CoopTalk
             if (!_announced)
             {
                 _announced = true;
-                Net.Send(Net.Hello, Net.LocalName, "", "", VersionTag);
+                Net.Send(Net.Hello, Net.LocalName, HostMark, "", VersionTag);
             }
 
             bool arrested = p.IsArrested;
@@ -248,16 +253,25 @@ namespace S1CoopTalk
 
             switch (type)
             {
+                case Net.SupplierDone:
+                    World.HandleSupplierDone(npcId);
+                    break;
+                case Net.ItemBack:
+                    Items.HandleItemBack(who, body);
+                    break;
                 case Net.Hello:
+                    NoteHost(npcId, body);
                     CheckVersion(who, body);
-                    if (ModdedPlayers.Add(who))
-                    {
+                    bool isNew = ModdedPlayers.Add(who);
+                    if (isNew)
                         Feed.System(string.Format(Text.Ui("joined"), who));
-                        // Late joiners also need to hear about the players already here.
-                        Net.Send(Net.HelloBack, Net.LocalName, "", "", VersionTag);
-                    }
+                    // Late joiners also need to hear about the players already here. Someone rejoining is not new to
+                    // the host, but has forgotten everything, including that the host has this mod.
+                    if (isNew || Il2CppFishNet.InstanceFinder.IsServer)
+                        Net.Send(Net.HelloBack, Net.LocalName, HostMark, "", VersionTag);
                     break;
                 case Net.HelloBack:
+                    NoteHost(npcId, body);
                     CheckVersion(who, body);
                     ModdedPlayers.Add(who);
                     break;
@@ -325,6 +339,13 @@ namespace S1CoopTalk
         private static void OnDayEnd() => Chat.ShowScoreboard();
 
         private static string VersionTag => ModVersion + "/" + Application.version;
+        private static string HostMark => Il2CppFishNet.InstanceFinder.IsServer ? "host" : "";
+
+        private static void NoteHost(string mark, string tag)
+        {
+            if (mark == "host" && Repairs.VersionAtLeast(tag, Repairs.MinHostVersion))
+                Repairs.HostHasMod = true;
+        }
 
         private static readonly HashSet<string> VersionWarned = new HashSet<string>();
 

@@ -35,7 +35,21 @@ Seus saves nunca são alterados. Your saves are never changed.
 - `/grana 500` (or `/cash 500`) gives money to the nearest player
 - Alerts for players waiting at the bed, police chases, arrests, knockouts, joins and leaves
 - An end-of-day sales scoreboard
-- Repairs for missing or moved items and stuck management menus, automatically or with `/sync`
+- Repairs for missing or moved items and stuck management menus, automatically or with `/sync`, which also re-sends rank, regions, NPCs, phone conversations, deliveries and storage contents
+
+**Co-op bug fixes**
+- A player who crashes or times out keeps what they were carrying
+- A player leaving no longer throws others out of their vehicles, removes ownership of driven cars, or leaves a car stuck as occupied
+- A save made while someone is joining can no longer blank their inventory
+- Two players using one storage slot no longer duplicate or destroy items
+- Dragging a stack no longer duplicates items if someone else takes from it mid-drag
+- Joining no longer re-sends every station's settings to everyone, which could overwrite edits in progress
+- A dealer's recommendation now reaches players who join later
+- An NPC no longer stays locked when the player talking to it disconnects
+- Delivery vans come back if the message showing them was lost
+- A second mix can no longer destroy a running one, and a finished mix is no longer deleted when the output slot is full
+- Employees no longer delete a carried stack when they arrive at a full destination
+- Losing the host while loading returns to the main menu instead of hanging, and guests no longer hang on "Waiting for host..." after sleeping
 
 Keys can be changed in `UserData\MelonPreferences.cfg`.
 
@@ -43,7 +57,8 @@ Keys can be changed in `UserData\MelonPreferences.cfg`.
 
 - **Antivirus warning:** MelonLoader works by adding `version.dll` to the game folder, which some antivirus programs flag. It is required for the mods to load.
 - **Some text is in English after a game update:** the translation was built for game version 0.4.7f12. New text stays in English until the mod is updated.
-- **Co-op problems:** send `UserData\S1CoopTalk_sync.log` from the game folder when reporting an issue.
+- **Co-op problems:** send `UserData\S1CoopTalk_sync.log` from the game folder when reporting an issue. Every player needs the same version.
+- **Trouble with items in co-op:** set `ItemRepairs = false` under `[S1CoopTalk]` in `UserData\MelonPreferences.cfg` for every player to turn off the item fixes.
 
 ## Remover / Uninstall
 

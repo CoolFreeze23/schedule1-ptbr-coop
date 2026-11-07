@@ -19,7 +19,8 @@ namespace S1CoopTalk
         public const string Hello = "hi", HelloBack = "hb", Line = "ln", Choice = "ch", Bubble = "bb",
             CallStart = "cs", CallLine = "cl", Sale = "sl", Arrested = "ar", Died = "di",
             ActivityEnd = "en", WantedOn = "w1", WantedOff = "w0", PingMark = "pg", Saved = "sv",
-            ChatLine = "tx", CashSend = "c1", CashAck = "c2", ResyncAsk = "rq";
+            ChatLine = "tx", CashSend = "c1", CashAck = "c2", ResyncAsk = "rq",
+            SupplierDone = "su", ItemBack = "ib";
 
         private const string Magic = "S1CT1";
         private const char Sep = '\u001f';
