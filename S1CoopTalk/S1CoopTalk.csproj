@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\shared\Game.props" />
+  <PropertyGroup>
+    <AssemblyName>S1CoopTalk</AssemblyName>
+    <RootNamespace>S1CoopTalk</RootNamespace>
+    <DefineConstants Condition="'$(DevUdp)'=='1'">$(DefineConstants);DEVUDP</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup Condition="'$(DevUdp)'!='1'">
+    <Compile Remove="DevLink.cs" />
+  </ItemGroup>
+</Project>

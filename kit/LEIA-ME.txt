@@ -1,0 +1,54 @@
+SCHEDULE I - PORTUGUES (BRASIL) + S1 CO-OP TALK
+================================================
+
+COMO INSTALAR (JEITO FACIL)
+Abra o PowerShell e cole este comando. Ele faz tudo e abre o jogo:
+
+  irm https://github.com/CoolFreeze23/schedule1-ptbr-coop/releases/latest/download/install.ps1 | iex
+
+Rode o mesmo comando para atualizar.
+
+COMO INSTALAR (MANUAL)
+1. Na Steam: botao direito em Schedule I > Gerenciar > Ver arquivos locais.
+2. Extraia TUDO deste zip dentro dessa pasta (onde esta o "Schedule I.exe").
+3. Abra o jogo pela Steam. A PRIMEIRA abertura demora alguns minutos e parece
+   travada: e normal, o MelonLoader esta preparando os arquivos. Precisa de internet.
+
+IDIOMA
+O jogo ja abre em portugues (textos, placas, rotulos e vozes dos NPCs).
+Para trocar: Ajustes > Tela > Idioma.
+
+JOGANDO JUNTO (todos os jogadores precisam instalar este pacote, na mesma versao do jogo)
+- Quando alguem conversa com um NPC ou atende o telefone, o texto aparece no
+  canto inferior esquerdo da tela dos outros.
+- Cada jogador tem um icone colorido: no painel da direita e na bussola la em cima.
+- O painel mostra a distancia, o bairro e o que a pessoa esta fazendo.
+- Y: abre o chat. Enter envia, Esc cancela.
+- /grana 500 no chat da dinheiro para o jogador mais perto (/grana Nome 500 escolhe quem).
+- F7: marca na tela de todos o ponto para onde voce esta olhando.
+- Shift + F7: pede ajuda (marca em vermelho e avisa todo mundo).
+- F8: abre o historico das conversas.
+- Avisos automaticos: alguem na cama esperando, policia atras de alguem, preso,
+  apagado, entrou ou saiu do jogo, host salvou. No fim do dia aparece o placar de vendas.
+- /sync no chat pede para o host reenviar o que estiver fora de sincronia.
+  Isso tambem acontece sozinho quando o mod detecta o problema.
+
+Para mudar as teclas: UserData\MelonPreferences.cfg (depois de abrir o jogo uma vez).
+
+SE ALGO DER ERRADO EM MULTIPLAYER
+Mande o arquivo UserData\S1CoopTalk_sync.log: ele registra o que foi detectado e corrigido.
+
+COMO REMOVER
+Apague "version.dll" da pasta do jogo. Seus saves nao sao alterados.
+
+------------------------------------------------
+
+INSTALL (English)
+Easiest: open PowerShell and run
+  irm https://github.com/CoolFreeze23/schedule1-ptbr-coop/releases/latest/download/install.ps1 | iex
+Or extract everything into the game folder (Steam: Manage > Browse local files) and start
+the game from Steam. The first launch takes a few minutes. Every player needs this kit.
+Y chat, F7 ping, Shift+F7 SOS, F8 history, /cash 500 gives money, /sync re-syncs.
+To remove: delete version.dll from the game folder. Saves are not modified.
+
+Includes MelonLoader v0.7.3 (Apache-2.0): https://github.com/LavaGang/MelonLoader

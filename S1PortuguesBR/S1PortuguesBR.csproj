@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\shared\Game.props" />
+  <PropertyGroup>
+    <AssemblyName>S1PortuguesBR</AssemblyName>
+    <RootNamespace>S1PortuguesBR</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="data\pt-BR.json" LogicalName="pt-BR.json" />
+    <EmbeddedResource Include="textures\*" LogicalName="textures.%(Filename)%(Extension)" />
+    <EmbeddedResource Include="signs\*" LogicalName="signs.%(Filename)%(Extension)" />
+  </ItemGroup>
+</Project>

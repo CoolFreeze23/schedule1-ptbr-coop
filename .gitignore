@@ -1,0 +1,15 @@
+# Only the mods, their data, the installer and the docs are published.
+*
+!.gitignore
+!README.md
+!install.ps1
+!kit/
+!kit/**
+!shared/
+!shared/**
+!S1PortuguesBR/
+!S1PortuguesBR/**
+!S1CoopTalk/
+!S1CoopTalk/**
+**/bin/
+**/obj/

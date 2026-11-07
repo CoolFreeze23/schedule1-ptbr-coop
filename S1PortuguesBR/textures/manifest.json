@@ -1,0 +1,543 @@
+[
+{
+"name": "Auto shop sign",
+"file": "Auto_shop_sign.png",
+"avg": null
+},
+{
+"name": "BlueForSaleSignTex",
+"file": "BlueForSaleSignTex.png",
+"avg": null
+},
+{
+"name": "ForSaleSignTex",
+"file": "ForSaleSignTex.png",
+"avg": null
+},
+{
+"name": "VehicleSaleSign",
+"file": "VehicleSaleSign.png",
+"avg": null
+},
+{
+"name": "Sold sign",
+"file": "Sold_sign.png",
+"avg": null
+},
+{
+"name": "Sign_CheckpointAhead",
+"file": "Sign_CheckpointAhead.png",
+"avg": null
+},
+{
+"name": "parkinggarage sign tex",
+"file": "parkinggarage_sign_tex.png",
+"avg": null
+},
+{
+"name": "parkinggarage sign tex 1",
+"file": "parkinggarage_sign_tex_1.png",
+"avg": null
+},
+{
+"name": "paymenttypesign_card",
+"file": "paymenttypesign_card.png",
+"avg": null
+},
+{
+"name": "paymenttypesign_cash",
+"file": "paymenttypesign_cash.png",
+"avg": null
+},
+{
+"name": "Hyland range logo",
+"file": "Hyland_range_logo.png",
+"avg": null
+},
+{
+"name": "Sewer office sign",
+"file": "Sewer_office_sign.png",
+"avg": null
+},
+{
+"name": "sewer sign tex",
+"file": "sewer_sign_tex.png",
+"avg": null
+},
+{
+"name": "staff only sign tex",
+"file": "staff_only_sign_tex.png",
+"avg": null
+},
+{
+"name": "koyama sign",
+"file": "koyama_sign.png",
+"avg": null
+},
+{
+"name": "Storage warehouse logo",
+"file": "Storage_warehouse_logo.png",
+"avg": null
+},
+{
+"name": "Sign",
+"file": "Sign_1379.png",
+"avg": [
+215,
+212,
+191
+]
+},
+{
+"name": "Sign",
+"file": "Sign_1458.png",
+"avg": [
+248,
+247,
+243
+]
+},
+{
+"name": "Car wash sign tex",
+"file": "Car_wash_sign_tex.png",
+"avg": null
+},
+{
+"name": "acid bottle label",
+"file": "acid_bottle_label.png",
+"avg": null
+},
+{
+"name": "Iodine label texc",
+"file": "Iodine_label_texc_1316.png",
+"avg": [
+200,
+150,
+86
+]
+},
+{
+"name": "Iodine label texc",
+"file": "Iodine_label_texc_2252.png",
+"avg": [
+85,
+52,
+187
+]
+},
+{
+"name": "Metal cannister_Label_BaseColor",
+"file": "Metal_cannister_Label_BaseColor.png",
+"avg": null
+},
+{
+"name": "liquorstore_Banner_AlbedoTransparency",
+"file": "liquorstore_Banner_AlbedoTransparency.png",
+"avg": null
+},
+{
+"name": "liquorstore_Label_AlbedoTransparency",
+"file": "liquorstore_Label_AlbedoTransparency.png",
+"avg": null
+},
+{
+"name": "chateau la peepee label tex",
+"file": "chateau_la_peepee_label_tex.png",
+"avg": null
+},
+{
+"name": "Fertilizer label tex",
+"file": "Fertilizer_label_tex.png",
+"avg": null
+},
+{
+"name": "PGR label tex",
+"file": "PGR_label_tex.png",
+"avg": null
+},
+{
+"name": "SpeedGrow label tex",
+"file": "SpeedGrow_label_tex.png",
+"avg": null
+},
+{
+"name": "sour diesel label tex",
+"file": "sour_diesel_label_tex.png",
+"avg": null
+},
+{
+"name": "green crack label tex",
+"file": "green_crack_label_tex.png",
+"avg": null
+},
+{
+"name": "GranddaddyPurple label tex",
+"file": "GranddaddyPurple_label_tex.png",
+"avg": null
+},
+{
+"name": "HAM Legal Services Banner",
+"file": "HAM_Legal_Services_Banner.png",
+"avg": null
+},
+{
+"name": "Taco ticklers banner",
+"file": "Taco_ticklers_banner.png",
+"avg": null
+},
+{
+"name": "fast food sign tex",
+"file": "fast_food_sign_tex.png",
+"avg": null
+},
+{
+"name": "Sauerkraut supreme pizza logo",
+"file": "Sauerkraut_supreme_pizza_logo.png",
+"avg": null
+},
+{
+"name": "Horse semen label",
+"file": "Horse_semen_label.png",
+"avg": null
+},
+{
+"name": "mouth wash label maty",
+"file": "mouth_wash_label_maty.png",
+"avg": null
+},
+{
+"name": "Wanklers_Posters",
+"file": "Wanklers_Posters.png",
+"avg": null
+},
+{
+"name": "Rays realty banner",
+"file": "Rays_realty_banner.png",
+"avg": null
+},
+{
+"name": "Lenny Banner",
+"file": "Lenny_Banner.png",
+"avg": null
+},
+{
+"name": "Cuke Banner",
+"file": "Cuke_Banner.png",
+"avg": null
+},
+{
+"name": "liquid meth label mat",
+"file": "liquid_meth_label_mat.png",
+"avg": null
+},
+{
+"name": "phosphorus label tex",
+"file": "phosphorus_label_tex.png",
+"avg": null
+},
+{
+"name": "MenuTitle",
+"file": "MenuTitle.png",
+"avg": null
+},
+{
+"name": "Extended logo with shadow",
+"file": "Extended_logo_with_shadow.png",
+"avg": null
+},
+{
+"name": "bar_Sign_AlbedoTransparency",
+"file": "bar_Sign_AlbedoTransparency.png",
+"avg": null
+},
+{
+"name": "bar_Sign_AlbedoTransparency 1",
+"file": "bar_Sign_AlbedoTransparency_1.png",
+"avg": null
+},
+{
+"name": "pawnshop_Board_AlbedoTransparency",
+"file": "pawnshop_Board_AlbedoTransparency.png",
+"avg": null
+},
+{
+"name": "Pointer road sign hyland point",
+"file": "Pointer_road_sign_hyland_point.png",
+"avg": null
+},
+{
+"name": "T_sign_BC",
+"file": "T_sign_BC.png",
+"avg": null
+},
+{
+"name": "PolygonGangWarfare_Texture_01_A",
+"file": "PolygonGangWarfare_Texture_01_A.png",
+"avg": null
+},
+{
+"name": "whisky bottle label",
+"file": "whisky_bottle_label.png",
+"avg": null
+},
+{
+"name": "energy drink label",
+"file": "energy_drink_label.png",
+"avg": null
+},
+{
+"name": "vending machine selectionlabel tex",
+"file": "vending_machine_selectionlabel_tex.png",
+"avg": null
+},
+{
+"name": "offensenotice",
+"file": "offensenotice.png",
+"avg": null
+},
+{
+"name": "HospitalBill",
+"file": "HospitalBill.png",
+"avg": null
+},
+{
+"name": "CartelIntroNote",
+"file": "CartelIntroNote.png",
+"avg": null
+},
+{
+"name": "BankNoteModelTex",
+"file": "BankNoteModelTex.png",
+"avg": null
+},
+{
+"name": "BankNoteModelTex reducedres",
+"file": "BankNoteModelTex_reducedres.png",
+"avg": null
+},
+{
+"name": "Benzies family",
+"file": "Benzies_family.png",
+"avg": null
+},
+{
+"name": "BulletproofVestTex_Police",
+"file": "BulletproofVestTex_Police.png",
+"avg": null
+},
+{
+"name": "PoliceCapTex",
+"file": "PoliceCapTex.png",
+"avg": null
+},
+{
+"name": "umbrella_police_decal",
+"file": "umbrella_police_decal.png",
+"avg": null
+},
+{
+"name": "suv_Body_AlbedoTransparency generic POLICE",
+"file": "suv_Body_AlbedoTransparency_generic_POLICE.png",
+"avg": null
+},
+{
+"name": "Police line",
+"file": "Police_line.png",
+"avg": null
+},
+{
+"name": "Closed for renovation",
+"file": "Closed_for_renovation.png",
+"avg": null
+},
+{
+"name": "Company",
+"file": "Company.png",
+"avg": null
+},
+{
+"name": "OpeningHours",
+"file": "OpeningHours.png",
+"avg": null
+},
+{
+"name": "Please knock",
+"file": "Please_knock.png",
+"avg": null
+},
+{
+"name": "Sauerkraut supreme motto",
+"file": "Sauerkraut_supreme_motto.png",
+"avg": null
+},
+{
+"name": "Slot winnings guide",
+"file": "Slot_winnings_guide.png",
+"avg": null
+},
+{
+"name": "sticky note",
+"file": "sticky_note.png",
+"avg": null
+},
+{
+"name": "Substrate bag tex",
+"file": "Substrate_bag_tex.png",
+"avg": null
+},
+{
+"name": "T-Shirt_Graphic_Hot",
+"file": "T-Shirt_Graphic_Hot.png",
+"avg": null
+},
+{
+"name": "Gas Mart T-Shirt",
+"file": "Gas_Mart_T-Shirt.png",
+"avg": null
+},
+{
+"name": "Fast Food T-Shirt",
+"file": "Fast_Food_T-Shirt.png",
+"avg": null
+},
+{
+"name": "Loading bay",
+"file": "Loading_bay.png",
+"avg": null
+},
+{
+"name": "Loading bay 1",
+"file": "Loading_bay_1.png",
+"avg": null
+},
+{
+"name": "Loading bay 2",
+"file": "Loading_bay_2.png",
+"avg": null
+},
+{
+"name": "Loading bay 3",
+"file": "Loading_bay_3.png",
+"avg": null
+},
+{
+"name": "ATM_Display",
+"file": "ATM_Display.png",
+"avg": null
+},
+{
+"name": "vendingmachine_Panel_AlbedoTransparency",
+"file": "vendingmachine_Panel_AlbedoTransparency.png",
+"avg": null
+},
+{
+"name": "vendingmachine_Door_AlbedoTransparency",
+"file": "vendingmachine_Door_AlbedoTransparency.png",
+"avg": null
+},
+{
+"name": "vendingmachine_Door_AlbedoTransparency 1",
+"file": "vendingmachine_Door_AlbedoTransparency_1.png",
+"avg": null
+},
+{
+"name": "Graffiti_BS",
+"file": "Graffiti_BS.png",
+"avg": null
+},
+{
+"name": "Graffiti_Burrito",
+"file": "Graffiti_Burrito.png",
+"avg": null
+},
+{
+"name": "Graffiti_FTP",
+"file": "Graffiti_FTP.png",
+"avg": null
+},
+{
+"name": "Graffiti_Jakey",
+"file": "Graffiti_Jakey.png",
+"avg": null
+},
+{
+"name": "Graffiti_JJ",
+"file": "Graffiti_JJ.png",
+"avg": null
+},
+{
+"name": "Graffiti_JJ2",
+"file": "Graffiti_JJ2.png",
+"avg": null
+},
+{
+"name": "Graffiti_King",
+"file": "Graffiti_King.png",
+"avg": null
+},
+{
+"name": "Graffiti_LegalizeRanch",
+"file": "Graffiti_LegalizeRanch.png",
+"avg": null
+},
+{
+"name": "Graffiti_MedicalClinic",
+"file": "Graffiti_MedicalClinic.png",
+"avg": null
+},
+{
+"name": "Graffiti_Mitsubishi",
+"file": "Graffiti_Mitsubishi.png",
+"avg": null
+},
+{
+"name": "Graffiti_Piss",
+"file": "Graffiti_Piss.png",
+"avg": null
+},
+{
+"name": "Graffiti_PrivateProperty",
+"file": "Graffiti_PrivateProperty.png",
+"avg": null
+},
+{
+"name": "Graffiti_RIPBozo",
+"file": "Graffiti_RIPBozo.png",
+"avg": null
+},
+{
+"name": "Graffiti_RipDenny",
+"file": "Graffiti_RipDenny.png",
+"avg": null
+},
+{
+"name": "Graffiti_Shithead",
+"file": "Graffiti_Shithead.png",
+"avg": null
+},
+{
+"name": "Graffiti_Spaghetti",
+"file": "Graffiti_Spaghetti.png",
+"avg": null
+},
+{
+"name": "Graffiti_Throne",
+"file": "Graffiti_Throne.png",
+"avg": null
+},
+{
+"name": "Graffiti_Trent",
+"file": "Graffiti_Trent.png",
+"avg": null
+},
+{
+"name": "Graffiti_VsForPresident",
+"file": "Graffiti_VsForPresident.png",
+"avg": null
+},
+{
+"name": "OfficeSign_occlusion",
+"file": "OfficeSign_occlusion.png",
+"avg": null
+}
+]
